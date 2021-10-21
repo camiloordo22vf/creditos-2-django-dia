@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Camilo\Dropbox\FUP-2021-1\creditos-III-django\clases\CLASE-(7)\creditos\prueba"
+VIRTUAL_ENV="C:\Users\usuario\Documents\GitHub\creditos-2-django-dia\prueba"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

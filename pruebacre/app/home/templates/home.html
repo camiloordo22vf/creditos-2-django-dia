@@ -52,6 +52,25 @@
         <h1>aqui van a listar nombres</h1>
         {{lista_n}}
     </div>
+    <div>
+        <h1> aqui se lista la base de datos</h1>
+        {% for elemento in lista_p %}
+        <p>
+            {{elemento.titulo}}
+        </p>
+        <p>
+            {{elemento.subtitulo}}
+        </p>
+        {% endfor %}
+    </div>
+    <div>
+        <h1>
+            Aqui create view
+        </h1>
+        <form method="POST">{% csrf_token %} {{form.as_p}}
+            <button type="submit">agregar</button>
+        </form>
+    </div>
     <style>
         .footer {
             position: fixed;

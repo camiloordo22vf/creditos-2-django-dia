@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Camilo\Dropbox\FUP-2021-1\creditos-III-django\clases\CLASE-(7)\creditos\prueba
+set VIRTUAL_ENV=C:\Users\usuario\Documents\GitHub\creditos-2-django-dia\prueba
 
 if not defined PROMPT set PROMPT=$P$G
 
